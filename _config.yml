@@ -7,24 +7,17 @@ theme: jekyll-theme-chirpy
 # change below value to '/projectname'.
 baseurl: ''
 
-# The language of the site layout › http://www.lingoes.net/en/translator/langcode.htm
-# Go to folder '_data/locales' to check the available language options
-lang: en
-
-# The lang attribute of HTML › http://www.lingoes.net/en/translator/langcode.htm
-# We can specify a language different from the layout of the content.
-# If it is not assigned, the site will use the value of 'lang' instead.
-content_lang: ''
+# the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
+lang: en-US
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: America/Los_Angeles
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
+# --------------------------
+title: Endless                         # the main title
 
-title: Chirpy                          # the main title
-
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Welcome to Ryan's headspace   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -32,10 +25,10 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://ryan-louie.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: ryan-louie                  # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -43,8 +36,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: Ryan Louie
+  email: ryanpatricklouie@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
@@ -54,9 +47,7 @@ social:
     # - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
-
-# ↑ --------------------------
-
+# --------------------------
 
 google_analytics:
   id: ''              # fill in your Google Analytics ID
@@ -86,7 +77,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: https://i.ibb.co/7RN3N9Q/endless-2.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -173,6 +164,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-# Outdated configuration warning
-outdated: '-- Missing configuration options! --'
